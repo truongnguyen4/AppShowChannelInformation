@@ -1,0 +1,7 @@
+<resources>
+    <string translatable="false" name="app_name">ShowChannel</string>
+    <string translatable="false" name="id">ID</string>
+    <string translatable="false" name="description">Description</string>
+    <string translatable="false" name="title">List app channels</string>
+
+</resources>

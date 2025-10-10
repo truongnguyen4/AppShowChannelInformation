@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="50dp"
+    android:paddingHorizontal="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textStyle="bold"
+        android:textSize="@dimen/size_title"
+        tools:ignore="SpUsage" />
+
+<!--    <EditText-->
+<!--        android:id="@+id/content"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:inputType="none"-->
+<!--        android:focusable="false"-->
+<!--        android:cursorVisible="false"-->
+<!--        android:longClickable="true"-->
+<!--        android:gravity="start|top" />-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_apps_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

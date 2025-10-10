@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_attribute">40dp</dimen>
+    <dimen name="padding_channel">20dp</dimen>
+    <dimen name="size_title">24dp</dimen>
+    <dimen name="size_subtitle">18dp</dimen>
+    <dimen name="size_channel">15dp</dimen>
+
+</resources>
